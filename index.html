@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" class="header__checkbox" id="open-menu" />
+      <label for="open-menu" class="header__open-nav-button"
+        ><i class="fa-solid fa-bars" style="color: #000000"></i
+      ></label>
+      <div class="header__logo-container">
+        <img
+          class="header__logo"
+          src="img/ChatGPT Image 27 oct 2025, 09_35_10 p.m..png"
+          alt="logo"
+        />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#about">About</a></li>
+          <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="header__nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-section">
+      <section class="hero">
+        <div class="hero-contemt">
+          <h1>AFTERLIFE</h1>
+          <p>Un viaje audiovisual a lo desconocido.</p>
+          <a href="#portfolio" class="hero-cta"> Explorar eventos</a>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-content">
+          <h2>¿Que es Afterlife?</h2>
+          <p>
+            Afterlife es una odisea a través del reino de la conciencia. Una
+            mezcla de instalaciones visuales inmersivas y paisajes sonoros que
+            definen un nuevo estándar en la música electrónica.
+          </p>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2>PORTFOLIO</h2>
+
+        <div class="portfolio-gallery">
+          <article class="event-card" id="event-1">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife Ibiza 2024</h3>
+              <p>Hï Ibiza, Spain</p>
+            </div>
+          </article>
+
+          <article class="event-card" id="event-2">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife Tulum 2025</h3>
+              <p>Cenote Zamna, Cancun</p>
+            </div>
+          </article>
+
+          <article class="event-card" id="event-3">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife São Paulo 2024</h3>
+              <p>Autodromo de Interlagos, Brazil</p>
+            </div>
+          </article>
+
+          <article class="event-card" id="event-4">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife Barcelona 2024</h3>
+              <p>Circuito de Barcelona, Catalunya</p>
+            </div>
+          </article>
+
+          <article class="event-card" id="event-5">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife Los Angeles</h3>
+              <p>La Historic, USA</p>
+            </div>
+          </article>
+
+          <article class="event-card" id="event-6">
+            <div class="event-card-overlay"></div>
+            <div class="event-card-content">
+              <h3>Afterlife Tomorrowland 2024</h3>
+              <p>Ziggo Dome, Amsterdam</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-content">
+          <h2>CONTACT</h2>
+          <p>
+            ¿Interesados en una colaboracion o un proximo evento?
+            Dejanos tu mensaje.
+          </p>
+
+          <form action="#" class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Robert" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastname">Apellido</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Johnson" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Mail@example.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="textarea" name="message" id="message" placeholder="Your message" required></textarea>
+            </div>
+            
+            <button type="sudmit" class="cta-button">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="site-footer">
+
+      <div class="footer-social-links">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" aria-label="Spotify">
+          <i class="fa-brands fa-spotify"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" aria-label="Youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      <div class="footer-credit">
+        <p>Portfolio conceptual de Afterlife.</p>
+        <p>&copy; 2025. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
