@@ -241,7 +241,7 @@ body, div, ul, nav, li, header,footer, a, label {
     margin: auto;
     animation: aparecer both;
     animation-timeline: view();
-    animation-range: cover 5% cover 70%;
+    animation-range: cover 5% cover 45%; /* Inicia la animacion cuando el 5% del contenedor entra en vista y termina cuando el 45% lo ha hecho */
 }
 
 .event-card {
@@ -375,7 +375,7 @@ body, div, ul, nav, li, header,footer, a, label {
     container-type: inline-size;
     animation: aparecer both;
     animation-timeline: view();
-    animation-range: cover 20% contain 40%;
+    animation-range: cover 5% contain 40%;
 }
 
 .contact-content p{
